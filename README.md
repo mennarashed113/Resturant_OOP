@@ -13,9 +13,13 @@ This project is a simple restaurant order system using *OOP* and *SOLID* princip
 ## 📂 Project Structure
 
 Core/             # Main application runner (App.java)
+
 UI/               # Handlers for each user type (HandleCustomer, HandleChef, etc.)
+
 models/           # Data models (Dish, Order, User, etc.)
+
 models/SeedData/  # Seeded Lists for Dishes, Orders, Users
+
 services/         # Interfaces and implementations for logic
 
 
