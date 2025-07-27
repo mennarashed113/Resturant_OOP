@@ -1,10 +1,11 @@
-package services.interfaces;
+package services.Implementation;
 
 import models.Dish;
 import models.Order;
 import models.SeedData.*;
 import models.Users.Customer;
-import models.Users.User;
+import services.interfaces.CustomerService;
+import services.interfaces.UserService;
 
 public class CustomerServiceImpl implements CustomerService {
     private Customer customer;

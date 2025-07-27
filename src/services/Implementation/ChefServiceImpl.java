@@ -1,15 +1,11 @@
-package services.interfaces;
+package services.Implementation;
 
 import models.Dish;
 import models.Order;
 import models.OrderStatus;
-import models.*;
 import models.SeedData.DishData;
 import models.SeedData.OrderData;
-import models.SeedData.UsersData;
-import models.Users.Chef;
-import models.Users.Customer;
-import models.Users.User;
+import services.interfaces.ChefService;
 
 
 public class ChefServiceImpl implements ChefService {

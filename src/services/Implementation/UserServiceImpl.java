@@ -1,11 +1,11 @@
-package services.interfaces;
+package services.Implementation;
 
 import models.SeedData.UsersData;
 import models.Users.Chef;
 import models.Users.Customer;
 import models.Users.DeliveryGuy;
 import models.Users.User;
-import models.*;
+import services.interfaces.UserService;
 
 public class UserServiceImpl implements UserService {
     @Override

@@ -4,9 +4,9 @@ import UI.*;
 import models.Users.*;
 
 import services.interfaces.CustomerService;
-import services.interfaces.CustomerServiceImpl;
+import services.Implementation.CustomerServiceImpl;
 import services.interfaces.UserService;
-import services.interfaces.UserServiceImpl;
+import services.Implementation.UserServiceImpl;
 
 import java.util.Scanner;
 

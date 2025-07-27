@@ -6,7 +6,7 @@ import models.SeedData.DishData;
 import models.Users.Customer;
 import models.Users.User;
 import services.interfaces.CustomerService;
-import services.interfaces.CustomerServiceImpl;
+import services.Implementation.CustomerServiceImpl;
 
 import java.util.Scanner;
 
